@@ -52,7 +52,7 @@
     "@types/leaflet": "^1.9.17",
     "@types/react-helmet": "^6.1.11",
     "@types/uuid": "^10.0.0",
-    "axios": "^1.8.4",
+    "axios": "^1.15.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
     "cmdk": "^1.0.0",
@@ -61,7 +61,7 @@
     "csurf": "^1.10.0",
     "csv-parse": "^5.6.0",
     "date-fns": "^3.6.0",
-    "drizzle-orm": "^0.39.1",
+    "drizzle-orm": "^0.45.2",
     "drizzle-zod": "^0.7.0",
     "embla-carousel-react": "^8.3.0",
     "express": "^4.21.2",
@@ -117,15 +117,32 @@
     "@types/ws": "^8.5.13",
     "@vitejs/plugin-react": "^4.3.2",
     "autoprefixer": "^10.4.20",
-    "drizzle-kit": "^0.30.4",
+    "drizzle-kit": "^0.31.9",
     "esbuild": "^0.25.0",
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "tsx": "^4.19.1",
     "typescript": "5.6.3",
-    "vite": "^5.4.14"
+    "vite": "^6.4.2"
   },
   "optionalDependencies": {
     "bufferutil": "^4.0.8"
+  },
+  "overrides": {
+    "form-data": ">=4.0.4",
+    "body-parser": ">=1.20.4",
+    "cookie": ">=0.7.0",
+    "glob": ">=10.5.0",
+    "jws": ">=3.2.3",
+    "lodash": ">=4.18.0",
+    "minimatch": ">=9.0.7",
+    "on-headers": ">=1.1.0",
+    "path-to-regexp": ">=0.1.13",
+    "picomatch": ">=4.0.4",
+    "validator": ">=13.15.21",
+    "brace-expansion": ">=2.0.3",
+    "follow-redirects": ">=1.16.0",
+    "qs": ">=6.14.2",
+    "yaml": ">=2.8.3"
   }
 }
